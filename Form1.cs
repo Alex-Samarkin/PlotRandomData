@@ -64,6 +64,8 @@ namespace PlotRandomData
                 scattter.Values.Add(new ObservablePoint(i, d));
                 i++;
             }
+
+            // cartesianChart1.Series.Add(scattter);
         }
     }
 }
